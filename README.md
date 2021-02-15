@@ -1,4 +1,4 @@
- Bu proje KTU Bilgisayar Mühendisliği Yapay Sinir Ağları dersi kapsamında geliştirilmiştir. 
+ Bu proje KTU Bilgisayar Mühendisliği Yapay Sinir Ağları dersi kapsamında geliştirilmiştir. <p>
  Proje kapsamında Visual Studio üzerinde C++/CLI arayüzü kullanılmıştır.
  Yapay Sinir Ağlarında (supervised) danışmanlı öğrenme etiketli verileri oluşturulan ağa verilip ağın nöronlarının ağırlıklarının güncellenmesi ile yapılabilir.Bu proje kapsamında çoklu sınıf ile bu sınıfların birbirinden ayrılması(sınıflandırılması)gerçeklenecektir. Bu eğitimi gerçekleştirirken hem ayrık hemde sürekli fonksiyon yardımı ile yapacağız. Ağımızın eğitimi sonlandığında sınıfları  birbirinden ayıran doğrular çizilecektir. Burada dikkat etmemiz gereken önemli noktalardan birisi örneklerimiz lineer olarak dağılması gerekmektedir. Çıktı katmanında sınıf sayısı kadar  nöron ve tek katlı ağ modeli kullanılmıştır. Nöronumuz 1. Örneğe +1 sonucunu verirken diğer örneklere -1 sonucunu vermektedir.
 
