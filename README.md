@@ -1,7 +1,7 @@
  Bu proje KTU Bilgisayar Mühendisliği Yapay Sinir Ağları dersi kapsamında geliştirilmiştir. <p>
  Proje kapsamında Visual Studio üzerinde C++/CLI arayüzü kullanılmıştır.<p>
 	 
- 	Yapay Sinir Ağlarında (supervised) danışmanlı öğrenme etiketli verileri oluşturulan ağa verilip ağın nöronlarının ağırlıklarının güncellenmesi ile yapılabilir.Bu proje kapsamında çoklu sınıf ile bu sınıfların birbirinden ayrılması(sınıflandırılması)gerçeklenecektir. Bu eğitimi gerçekleştirirken hem ayrık hemde sürekli fonksiyon yardımı ile yapacağız. Ağımızın eğitimi sonlandığında sınıfları  birbirinden ayıran doğrular çizilecektir. Burada dikkat etmemiz gereken önemli noktalardan birisi örneklerimiz lineer olarak dağılması gerekmektedir. Çıktı katmanında sınıf sayısı kadar  nöron ve tek katlı ağ modeli kullanılmıştır. Nöronumuz 1. Örneğe +1 sonucunu verirken diğer örneklere -1 sonucunu vermektedir.
+ Yapay Sinir Ağlarında (supervised) danışmanlı öğrenme etiketli verileri oluşturulan ağa verilip ağın nöronlarının ağırlıklarının güncellenmesi ile yapılabilir.Bu proje kapsamında çoklu sınıf ile bu sınıfların birbirinden ayrılması(sınıflandırılması)gerçeklenecektir. Bu eğitimi gerçekleştirirken hem ayrık hemde sürekli fonksiyon yardımı ile yapacağız. Ağımızın eğitimi sonlandığında sınıfları  birbirinden ayıran doğrular çizilecektir. Burada dikkat etmemiz gereken önemli noktalardan birisi örneklerimiz lineer olarak dağılması gerekmektedir. Çıktı katmanında sınıf sayısı kadar  nöron ve tek katlı ağ modeli kullanılmıştır. Nöronumuz 1. Örneğe +1 sonucunu verirken diğer örneklere -1 sonucunu vermektedir.
 
 Programın çalışmasından kısaca bahsedecek olursak, sınıf sayısı seçildikten sonra altında radioButtonlar aktif olduktan sonra koordinat sisteminden ağın eğitimi için gerekli veri girişleri sağlanacaktır. Eğitim için ayrık ve sürekli fonksiyon kullanılmıştır. Programda maksimum 6 sınıf birbirinden ayrılabilir. Sürekli fonkisyon kullanılan eğitimde verilerin normalize edilmesi gerekmektedir. 
 
@@ -34,7 +34,7 @@ Aşağıdaki örnek çıktılara bakıldığında normalize edilince eğitimin n
 ![image](https://user-images.githubusercontent.com/22706674/107973667-8d507480-6fc6-11eb-8c63-e550bc372712.png)
 
 
-Normalize yapıldığında eğitim tamamlandıktan sonra sonuç net oalrak görülmesi için örneklere zoom uygulanmalıdır.
+Normalize yapıldığında eğitim tamamlandıktan sonra sonuç net olarak görülmesi için örneklere zoom uygulanmalıdır.
 
 ![image](https://user-images.githubusercontent.com/22706674/107973705-9a6d6380-6fc6-11eb-8df3-ade5d7b9c023.png)
 
